@@ -57,3 +57,9 @@ img {
   .right img {
     margin-left: 10px; /* Adds space between the image and text */
   }
+
+  .project{
+    background-color: whitesmoke;
+    color:black;
+    padding:1%
+  }

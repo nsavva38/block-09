@@ -11,7 +11,9 @@ img {
   .main-text {
     background-color: rgb(66, 63, 63);
     color:white;
-    margin: 1%
+    margin: 1%;
+    padding:1%;
+    font-size: 25px;
   }
 
   .link-bar {
@@ -25,7 +27,33 @@ img {
 
   h1 {
     color:white;
+    font-size: 30px;
+    margin: 1%;
   }
+
+  h2 {
+    color:white;
+    text-align: center;
+  }
+
   h3 {
     color:white;
+  }
+
+  .left {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+  }
+
+  .left img {
+    margin-right: 10px; /* Adds space between the image and text */
+  }
+
+  .right {
+    display: flex;
+    align-items: center; /* Aligns items vertically center */
+  }
+
+  .right img {
+    margin-left: 10px; /* Adds space between the image and text */
   }
